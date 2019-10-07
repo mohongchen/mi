@@ -1,0 +1,281 @@
+@import "common";
+
+.head{
+    width: 100%;
+    height: 2rem;
+    background-color: #F27E0F;
+    display: flex;
+    line-height: 2rem;
+    .round{
+        box-sizing: border-box;
+        width: .88rem;
+        height: .88rem;
+        background-color:#FFB409;
+        border: .023529rem solid #fff ;
+        border-radius: .44rem;
+        position: relative;
+        margin: .56rem;
+       
+       
+        img{
+            position: absolute;
+            top: .093333rem;
+            left: .186667rem;
+            width:.541176rem;
+            vertical-align: middle;
+           
+        }
+    }
+    a{
+        font-size: .266667rem;
+        color: #F5F5F5;
+        line-height: 2rem;
+    }
+}
+.order{
+    display: flex;
+    width: 100%;
+    height: 2.4rem;
+    background-color: #fff;
+    flex-direction: column;
+    .myorders{
+        height: .8rem;
+        line-height:  .8rem;
+        border-bottom: .026667rem solid #ccc;
+        span{
+            float: left;
+            color: #4D4D4D;
+            font-size: .346667rem;
+            margin-left: .533333rem;
+        }
+        a{
+            position: relative;
+            float: right;
+            font-size: .24rem;
+            color: #4D4D4D;
+            margin-right: .88rem;
+        }
+        a::after{
+            position: absolute;
+          content:"";
+          display: block;
+          top: .293333rem;
+          left:1.24rem;
+          width: .173333rem;
+          height:.173333rem;
+          border-top: .026667rem solid #8A8A8A;
+          border-right: .026667rem solid #8A8A8A;
+          transform: rotate(45deg);
+        }
+    }
+    .payment{
+        height: 1.573333rem;
+        display: flex;
+        align-items: center;
+        a{
+            margin-top: .4rem;
+            display: flex;
+            flex: 33.33333%;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 20px;
+            img{
+                width: .773333rem;
+                height: .653333rem;
+            }
+            span{
+                font-size: .213333rem;
+                color: #8A8A8A;
+            }
+        }
+    }
+}
+.vip{
+    width: 100%;
+    height: 2.133333rem;
+    background-color: #fff;
+    vertical-align: middle;
+    margin-top: .133333rem;
+    
+    .member{
+        height: 1.066667rem;
+        display: flex;
+       a{
+           
+           border-bottom: .026667rem solid #ccc;
+           height: 1.066667rem;
+           line-height: 1.066667rem;
+       } 
+    }
+    .discount{
+        display: flex;
+    }
+    img{
+        float: left;
+        width: .56rem;
+        height: .52rem;
+        margin: .2rem 15px 10px 12px;
+    }
+    a{
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+        height: 1.066667rem;
+        font-size: .266667rem;
+        color: #4D4D4D;
+        line-height: 1.066667rem;
+    }
+    .member a::after,
+    .discount a::after{
+        content: "";
+        position: absolute;
+        top: .373333rem;
+        right: .64rem;
+        display: inline-block;
+        width: .235294rem;
+        height: .235294rem;
+        border-top: .026667rem solid #ccc;
+        border-right: .026667rem solid #ccc;
+        transform: rotate(45deg);
+
+    }
+}
+ .service{
+        width: 100%;
+        height: 2.133333rem;
+        background-color: #fff;
+        vertical-align: middle;
+        margin-top: .133333rem;
+        
+        .center{
+            height: 1.066667rem;
+            display: flex;
+           a{
+               
+               border-bottom: .026667rem solid #ccc;
+               height: 1.066667rem;
+               line-height: 1.066667rem;
+           } 
+        }
+        .home{
+            display: flex;
+        }
+        img{
+            float: left;
+            width: .56rem;
+            height: .52rem;
+            margin: .2rem 15px 10px 12px;
+        }
+        a{
+            width: 100%;
+            display: inline-block;
+            position: relative;
+            box-sizing: border-box;
+            height: 1.066667rem;
+            font-size: .266667rem;
+            color: #4D4D4D;
+            line-height: 1.066667rem;
+        }
+        .center a::after,
+        .home a::after{
+            content: "";
+            position: absolute;
+            top: .373333rem;
+            right: .64rem;
+            display: inline-block;
+            width: .235294rem;
+            height: .235294rem;
+            border-top: .026667rem solid #ccc;
+            border-right: .026667rem solid #ccc;
+            transform: rotate(45deg);
+    
+        }
+    }
+.excess{
+    width: 100%;
+    height: 1.066667rem;
+    background-color: #fff;
+    vertical-align: middle;
+    margin-top: .133333rem;
+    .path{
+        height: 1.066667rem;
+        display: flex;
+       a{
+        
+            width: 100%;
+            display: inline-block;
+            position: relative;
+            box-sizing: border-box;
+            height: 1.066667rem;
+            font-size: .266667rem;
+            color: #4D4D4D;
+            line-height: 1.066667rem;
+    
+       } 
+        a::after{
+        content: "";
+        position: absolute;
+        top: .373333rem;
+        right: .64rem;
+        display: inline-block;
+        width: .235294rem;
+        height: .235294rem;
+        border-top: .026667rem solid #ccc;
+        border-right: .026667rem solid #ccc;
+        transform: rotate(45deg);
+
+    }
+    }
+
+    img{
+        float: left;
+        width: .56rem;
+        height: .52rem;
+        margin: .2rem 15px 10px 12px;
+    }
+}
+.setting{
+    width: 100%;
+    height: 1.066667rem;
+    background-color: #fff;
+    vertical-align: middle;
+    margin-top: .133333rem;
+    .set{
+        height: 1.066667rem;
+        display: flex;
+       a{
+        
+            width: 100%;
+            display: inline-block;
+            position: relative;
+            box-sizing: border-box;
+            height: 1.066667rem;
+            font-size: .266667rem;
+            color: #4D4D4D;
+            line-height: 1.066667rem;
+    
+       } 
+        a::after{
+        content: "";
+        position: absolute;
+        top: .373333rem;
+        right: .64rem;
+        display: inline-block;
+        width: .235294rem;
+        height: .235294rem;
+        border-top: .026667rem solid #ccc;
+        border-right: .026667rem solid #ccc;
+        transform: rotate(45deg);
+
+    }
+    }
+
+    img{
+        float: left;
+        width: .56rem;
+        height: .52rem;
+        margin: .2rem 15px 10px 12px;
+    }
+}

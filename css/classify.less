@@ -1,0 +1,111 @@
+@import "common";
+
+
+.head{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    width: 10rem;
+    height: 1.293333rem;
+    background-color: #F2F2F2;
+    line-height: 1.293333rem; 
+   
+
+    .arrow{
+        display: block;
+        position: absolute;
+        top: .333333rem;
+        left: .533333rem;
+        width: .44rem;
+        height: .44rem;
+        border-left: 2px solid #909090;
+        border-bottom: 2px solid #909090;
+       
+        transform: rotate(45deg);
+    }
+    p{
+        width: 100%;
+        flex: 1;
+        font-size: .376471rem;
+        text-align: center;
+        padding-left: .773333rem;
+        color: #ADADAD;
+            
+
+    }
+    .find{
+        position: relative;
+        width: 1.24rem;
+        height: 1.4rem;
+        img{
+            position: absolute;
+            top: .293333rem;
+            left: .266667rem;
+            width: .493333rem;
+            height: .666667rem;
+        }
+    }
+}
+.aside{
+    margin-top:1.293333rem; 
+    display: flex;
+    .product-list li a{
+        display: block;
+        width: 1.933333rem;
+        text-align: center;
+        padding: .266667rem;  
+        margin-bottom:.066667rem; 
+        font-size: .213333rem;  
+        // transition: font-size 0.3S; 
+        color: #414141;                           
+    }
+    .product-list li a:hover{
+        font-size: .266667rem;
+        color: #D7783E;
+    }
+
+      .main-content{
+          flex: 1;
+          width: 3.946667rem;
+          .top-banner{
+              display: block;
+              width:  7.026667rem;
+              height:  2.773333rem;
+              background: url(../images/m2_07.png) no-repeat;
+              background-size:  7.026667rem 2.773333rem;
+              margin-top: .093333rem;
+              margin-left: .266667rem;
+          }
+          p{
+              font-size: .293333rem;
+              height: 1.173333rem;
+              text-align: center;
+              margin-top: 50px;
+              color: #ADADAD;
+          }
+          .phone{
+              display: flex;
+              margin-left: .266667rem;
+              flex-wrap: wrap;
+              a{
+                  width: 1.626667rem;
+                  height: 2.266667rem;
+                  display: flex;
+                  text-align: center;
+                  flex-direction: column;
+                  margin: .133333rem .186667rem;
+                  font-size: .213333rem;
+                  img{
+                      width:1.546667rem;
+                      height: 1.76rem;
+                  }
+                  span{
+                      margin-top: .133333rem;
+                  }
+              }
+          }
+      }   
+}
+
